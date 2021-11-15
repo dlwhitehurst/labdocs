@@ -20,10 +20,9 @@ Welcome to David L. Whitehurst's Tavros lab documentation. These documents are s
 to great change and will be maintained in a software repository https://github.com/dlwhitehurst/labdocs[here].
 
 [WARNING]
-This {description} was drafted and is maintained as a DevOps reference to the work that occurs on the FortyTwoBinary network and infrastructure. The powerful command-line instructions found here, may or may
+This {description} was drafted and is maintained as a DevOps reference to the work that occurs on the dlwhitehurst.com public and private network and infrastructure. The powerful command-line instructions found here, may or may
 not be accurate or timely. This warning is given to let the DevOp be aware that commands may not be
-idempotent and before root-level (sudo) actions are taken, to please think twice before hitting the Enter
-key.
+idempotent and before root-level (sudo) actions are taken, to please think twice before hitting the Enter key.
 
 .This document
 **********************************************************************
