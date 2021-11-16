@@ -54,8 +54,8 @@ The following hyperlinks provide navigation to the lab documentation content. Li
 here because the documents are not organized and it's more convenient to just list them here.
 
 - {endpoint-url}/kube-tower.html[Raspberry Pi Tower]
-- {endpoint-url}/dell-cluster.html[Dell Cluster]
-- {endpoint-url}/my-tavros.html[Davros or David's Tavros]
+- {endpoint-url}/dell-cluster.html[My Second Cluster]
+- {endpoint-url}/my-tavros.html[Beast]
 - {endpoint-url}/playbook.html[Playbook]
 - {endpoint-url}/docker.html[Docker]
 - {endpoint-url}/nfs.html[NFS]
