@@ -422,8 +422,27 @@ The cluster is now (Nov 22, 2021) basically complete and has been running for qu
 I'll provide detailed facts about the cluster here for reference.
 
 ==== Machines
-Later ...
+[cols="1e,5",frame="topbot",options="header"]
+.Virtual machines list
+|====================================================================
+|Name |Description
 
+|kube-master
+|*192.168.1.12* - Hosted by Beast, Ubuntu 20.04 LTS
+
+|kube-worker-1
+|*192.168.1.14* - Hosted by Beast, Ubuntu 20.04 LTS
+
+|kube-worker-2
+|*192.168.1.17* - Hosted by Beast, Ubuntu 20.04 LTS
+
+|kube-worker-3
+|*192.168.1.18*- Hosted by Beast, Ubuntu 20.04 LTS
+
+|kube-worker-4
+|*192.168.1.19* - Hosted by Beast, Ubuntu 20.04 LTS
+
+|====================================================================
 ==== Platform Software
 Later ...
 
