@@ -42,20 +42,20 @@ on the job. For my situation, Kubernetes is expensive to host in the cloud for p
 and training reasons. I've recently arrived at a better solution and that's my own K8s
 cluster using recently available Model 4b Raspberry Pi machines.
 
-My cluster consists of 3 model 4b and 2 model 3b Raspberry Pi small board computers (SBC).
+I now run 3 clusters continuously, 1 ARM64 and 2 X86-64 or AMD64.
 
-== Environment
-The FortyTwoBinary lab environment is simply a home network, 8 SBCs (arm64),
-an 8-port switch, a 5-port switch, a wireless router, and a public ISP. I currently host a
-few services publicly and all communications are protected with PKI certificates.
+The following sections provide navigation to the lab documentation content.
 
-== Links
-The following hyperlinks provide navigation to the lab documentation content. Links are given
-here because the documents are not organized and it's more convenient to just list them here.
-
+== Frankenstein
 - {endpoint-url}/kube-tower.html[Raspberry Pi Tower]
+
+== Beast
 - {endpoint-url}/dell-cluster.html[My Second Cluster]
+
+== Tavros
 - {endpoint-url}/my-tavros.html[Beast]
+
+== Misc
 - {endpoint-url}/playbook.html[Playbook]
 - {endpoint-url}/docker.html[Docker]
 - {endpoint-url}/nfs.html[NFS]
