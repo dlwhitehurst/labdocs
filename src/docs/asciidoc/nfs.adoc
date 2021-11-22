@@ -20,7 +20,7 @@ image:files.jpg["Files"]
 
 image:vy.png["Company Logo",height=32]
 
-Welcome to the FortyTwoBinary service documentation for the Network File System (NFS) on multiple platforms. This document is subject to great change and will
+Welcome to the David L. Whitehurst IT lab documentation for the Network File System (NFS) on multiple platforms. This document is subject to great change and will
 be maintained in a software repository https://github.com/fortytwobinary/labdocs[here].
 
 [WARNING]
@@ -49,14 +49,15 @@ Since each of the Kubernetes nodes form a cluster of similar computers,
 each node needs a similar filesystem storage path (shared). The NFS mount
 will be used for Persistent Volumes and Claims for K8s hostings. Any
 machine will be able to send data to the Persistent Volume and subsequently
-the filesystem path (shared) regardless of the worker sending the data.
+the filesystem path (shared) regardless of the worker sending the data. Also, an auto-provisioner could be established as the default storage class and only PVCs will need to be created.
 **********************************************************************
 
 == Preliminaries
+The next sections describe the NFS installation and configuration for Frankie's cluster (Raspberry Pi). The Beast cluster uses a VM for the NFS server and similar mounts do not exist on nodes. The NFS server is 192.168.1.20 or dell-nfs and it runs as a VM on Beast (Dell R720 Poweredge).
 
 === Goal
 The goal here is to install and maintain an NFS mount (server) on our Kubernetes
-cluster master node and share that mount (clients) on all worker nodes.
+cluster (Frankie) master node and share that mount (clients) on all worker nodes. The shared mounts become volume mounts on the individual nodes.
 
 === Platforms
 NFS server and client software will be installed on arm64 Ubuntu 20.04 LTS.

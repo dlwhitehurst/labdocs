@@ -16,7 +16,7 @@ image:ethernet.jpg["Ethernet"]
 
 image:vy.png["Company Logo",height=32]
 
-Welcome to David L. Whitehurst's Tavros lab documentation. These documents are subject
+Welcome to David L. Whitehurst's IT lab documentation. These documents are subject
 to great change and will be maintained in a software repository https://github.com/dlwhitehurst/labdocs[here].
 
 [WARNING]
