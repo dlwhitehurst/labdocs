@@ -74,14 +74,14 @@ tower consisting of a control-plane (master) and 4 worker nodes.
 === Platform
 As stated in the Goal section above, the platform for installation and
 hosting consists of 5 newer Raspberry Pi machines with Ubuntu 20.04 LTS aarm64
-images (operating system).
+images (operating system). Please note the CPUs for the nodes are ARM64 or aarm64. This may hinder your search for Docker images. Many popular images are built for this platform and many popular image builds for ARM64 exist in at github.com. This can save on research if the image is not available e.g. at https://hub.docker.com. Start there.
 
 === Dependencies
 Dependencies can be machines, wires, hardware, software packages, configurations
 or even tools that need to be available during the process of installation.
 In this case, the hardware was our foundation. This process requires 5 Raspberry
 Pi machines, power, and ethernet cabling to a local network. We also required 5 -
-16GB microSD cards for flashing the operating system.
+16GB microSD cards for flashing the operating system. The microSD cards have since been replaced with 32GB storage.
 
 Download Ubuntu 20.04 LTS for aarm64 architecture at the following link: https://ubuntu.com/download/raspberry-pi[https://ubuntu.com/download/raspberry-pi]. Please note that you must select the 64bit choice here.
 
@@ -93,7 +93,7 @@ The creation of a Kubernetes cluster required the installation of a lighter, Lin
 a Debian-based distribution for ARM64 processors. We could have stripped or
 uninstalled the desktop but I found an online setup for Kubernetes on Raspberry
 Pi by a guy that works for RedHat here in Raleigh NC. He recommended Ubuntu
-20.04 LTS. First, let's flash 5 microSD cards with the downloaded Ubuntu image.
+20.04 LTS. First, let's flash the 5 microSD cards with the downloaded Ubuntu image.
 
 === Operating System
 Place a new or recently erased microSD card in your workstation (working machine).
@@ -416,27 +416,18 @@ ubuntu@kube-master:~$
 ----
 
 == Retrospective and Notes
-The full administration and use of Vault is yet to be discovered. For now
-we'll provide some cheatsheet commands and a few use cases.
+The cluster is now (Nov 22, 2021) basically complete and has been running for quite some time however, outside access to the internal cluster is not available at this time.
 
-=== Overall Process
-Later ... you are welcome lol ...
+=== Facts
+I'll provide detailed facts about the cluster here for reference.
 
-[source,bash]
-----
-$ vault status
-----
-
-==== Preparation
+==== Machines
 Later ...
 
-==== Planning
+==== Platform Software
 Later ...
 
-=== Education
-Later ...
-
-=== Automation
+==== Hostings
 Later ...
 
 :numbered!:
